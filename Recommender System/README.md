@@ -6,8 +6,8 @@ This project implements a movie recommender system using Streamlit, a Python lib
 The Movie Recommender System utilizes the TMDB (The Movie Database) API to fetch movie posters and information. It recommends movies similar to the user-selected movie title using cosine similarity scores calculated from movie features.
    
 ## Data Files
--movie_dict.pkl: A pickled dictionary containing movie information.
--similarity.pkl: A pickled file containing similarity scores between movies.
+- movie_dict.pkl: A pickled dictionary containing movie information.
+- similarity.pkl: A pickled file containing similarity scores between movies.
 Make sure to have these files accessible in the specified paths mentioned in the code.
 
 ## Usage
