@@ -21,7 +21,10 @@ Make sure to have these files accessible in the specified paths mentioned in the
 1.Run the Application: Execute the Streamlit application by running the following command in the terminal:
 streamlit run app.py
 
-2.Interact with the Application: Access the application through the provided local URL (usually http://localhost:8501) in your web browser. Select a movie title from the dropdown menu and click the "Recommend" button to view similar movie recommendations along with their posters.
+2.Interact with the Application: Access the application through the provided local URL in your web browser. Select a movie title from the dropdown menu and click the "Recommend" button to view similar movie recommendations along with their posters.
 
 ## References
 - TMDB API: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+### Note: 
+Ensure that you have obtained necessary API keys for accessing the TMDB API and replace '5e54d32cea9babe067426415800b253e' with your own API key in the code.
