@@ -1,9 +1,6 @@
 
 # Movie Recommender System using Streamlit
-This project implements a movie recommender system using Streamlit, a Python library for building web applications. The recommender system suggests similar movies based on user-selected preferences using a content-based approach.
-
-## Overview
-The Movie Recommender System utilizes the TMDB (The Movie Database) API to fetch movie posters and information. It recommends movies similar to the user-selected movie title using cosine similarity scores calculated from movie features.
+This project is a content-based movie recommender system utilizing the TMDB (The Movie Database) dataset. The recommender system uses cosine similarity to suggest movies based on their content, which includes genres, keywords, cast, and crew information.
 
 ## Requirements
 Ensure you have the following dependencies installed:
@@ -25,6 +22,9 @@ streamlit run app.py
 
 ## References
 - TMDB API: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+## Conclusion
+This content-based recommender system provides a straightforward yet effective way to suggest movies based on their content similarity. It leverages various features from the TMDB dataset and uses text vectorization and cosine similarity to find and recommend similar movies.
 
 ### Note: 
 Ensure that you have obtained necessary API keys for accessing the TMDB API and replace '5e54d32cea9babe067426415800b253e' with your own API key in the code.
