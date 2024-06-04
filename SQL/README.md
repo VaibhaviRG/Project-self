@@ -18,7 +18,7 @@ The Inventory Structure Management System is a comprehensive SQL-based mini-proj
    - STOCK: PID, SQTY, ROL, MOQ
    - CUST: CID, CNAME, ADDRESS, CITY, PHONE, EMAIL, DOB
    - ORDERS: OID, ODATE, PID, CID, OQTY
-   - 
+     
 ### Constraints
    Primary keys, unique constraints, check constraints, and foreign keys ensure data integrity and validity.
 
@@ -27,12 +27,12 @@ The Inventory Structure Management System is a comprehensive SQL-based mini-proj
   - ADDPRO: Adds a new product.
   - ADDCUST: Adds a new customer.
   - ADDORDER: Adds a new order with the current date.
-  - 
+    
 ### Triggers
   - Insert Trigger: Updates stock quantity when a new order is inserted.
   - Update Trigger: Adjusts stock quantity when an order is updated.
   - Delete Trigger: Deletes product when corresponding stock is deleted.
-  - 
+    
 ### Views
    BILL: Displays a detailed bill with OID, ODATE, CNAME, ADDRESS, PHONE, PDESC, PRICE, OQTY, and AMOUNT.
 
