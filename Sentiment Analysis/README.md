@@ -14,7 +14,7 @@ The primary goal is to understand the emotional aspects of cancer patients' and 
 3. **Model Development**:
     - Built and evaluated multiple models, including XGBoost and Random Forest.
     - Achieved a maximum accuracy of 72% with the XGBoost model on test data.
-    - 
+      
 ## Tools and Technologies Used
  - Programming Language: Python
  - Libraries: NLTK, Scikit-learn, XGBoost
