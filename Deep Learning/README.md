@@ -19,6 +19,6 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0-9
   - Metrics: Accuracy on both the training and testing sets is reported.
 
 ## Results
-  - Training Accuracy: 99.45%
-  - Test Accuracy: 98.27%
+  - Training Accuracy: 99.42%
+  - Test Accuracy: 98.21%
   - The model showed excellent performance on both the training and test sets, with minimal errors.
